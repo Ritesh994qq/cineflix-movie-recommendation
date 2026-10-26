@@ -1,4 +1,3 @@
-
 import streamlit as st
 from difflib import SequenceMatcher
 
@@ -27,8 +26,21 @@ html, body, [data-testid="stAppViewContainer"] {
 
 .block-container {
     max-width: 1500px;
-    padding-top: 1.2rem;
+    padding-top: 2.5rem;
     padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    overflow: visible;
+}
+
+.brand {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1.3;
+    padding-top: 0.5rem;
+    overflow: visible;
 }
 
 .brand {
